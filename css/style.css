@@ -1,0 +1,245 @@
+.top{
+  background: white;
+  width: 101%;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  border-bottom: 1px solid gray;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: fixed;
+  left: -5px;
+  top: -5px;
+  padding-top: 45px;
+  padding-bottom: 15px;
+}
+/* This "top" class is one of the smallest sections of the webpage, but probably
+has the most css styling. Funny how that works. */
+
+.name {
+  width: 50%;
+  position: relative;
+  margin-left: 70px;
+  letter-spacing: 10px;
+}
+
+.nav {
+  position: relative;
+  right: 5%;
+  box-sizing: border-box;
+}
+/* This nav bar would have been pretty hard if we hadn't just done our airplane
+project. I was pretty much able to mimic that nav bar and adjust it for this project. */
+
+.nav p {
+  display: inline-block;
+}
+
+.nav a {
+  color: black;
+  margin-left: 20px;
+  margin-right: 23px;
+}
+
+.nav a:hover {
+  color: gray;
+}
+
+#home {
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/lwsnback.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 170%;
+  margin-top: -125px;
+}
+/* This section looks fancy, but it's just a big ol' background image and two
+lines of text. */
+
+h1 {
+  font-size: 40px;
+}
+
+#home h1 {
+  color: white;
+  font-size: 60px;
+  text-shadow: 4px 2px black;
+  text-align: center;
+  letter-spacing: 10px;
+  padding-top: 180px;
+}
+
+#home p {
+  color: white;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  letter-spacing: 10px;
+  padding-top: 20px;
+}
+
+.content {
+  margin-top: 200px;
+  font-family: 'Montserrat', sans-serif;
+}
+/* I styled all the text on the page with the same font to keep it uniform. */
+
+#shop {
+  text-align: center;
+  background-color: white;
+  padding-top: 100px;
+  padding-right: 60px;
+  padding-bottom: 100px;
+  padding-left: 60px;
+}
+/* This is sort of a little online store section. */
+
+.shop-text1 a {
+  color: black;
+  text-decoration: none;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: inline-block;
+}
+/* The links here don't really go anywhere, they just take you back to the "shop"
+id. If this were real life they would ink to a checkout window to buy one. */
+
+.shop-text1 a:hover {
+  color: gray;
+}
+
+.shop-text2 a {
+  color: black;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: inline-block;
+}
+/* The "shop-text" divs control horizontal bars that include the text within the
+"shop" id. */
+
+.shop-text2 a:hover {
+  color: gray;
+}
+
+.shop-line1 img{
+  display: inline-block;
+  width: 300px;
+}
+/* The "shop-line" divs control horizontal bars that include the images within the
+"shop" id. */
+
+.shop-line2 img{
+  display: inline-block;
+  width: 300px;
+}
+
+#heritage {
+  text-align: center;
+  background-color: #C8C8C8;
+  padding-top: 100px;
+  padding-right: 60px;
+  padding-bottom: 100px;
+  padding-left: 60px;
+}
+/* This section is a fun little text expert around the care this company takes in
+making their lether goods. */
+
+#heritage h1 {
+  margin-bottom: 30px;
+}
+
+#custom {
+  background-color: white;
+  padding-top: 100px;
+  padding-right: 60px;
+  padding-bottom: 100px;
+  padding-left: 60px;
+}
+/* This was the most challenging piece to code, but also was my favorite. It is
+basically a request form for custom work from this busniess. This section had a
+lot of particular elements to style. */
+
+#custom h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.custom-text {
+  text-align: center;
+}
+
+.custom-form {
+  width: 520px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.custom-form input[type="text"] {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.custom-name {
+  float: left;
+  text-align: left;
+}
+
+.custom-name input[type="text"] {
+  width: 240px;
+  height: 30px;
+}
+
+.custom-email {
+  float: left;
+  margin-left: 20px;
+}
+
+.custom-email input[type="text"] {
+  width: 240px;
+  height: 30px;
+}
+
+.custom-line2 input[type="text"] {
+  width: 505px;
+  height: 30px;
+}
+
+.custom-line2 p:nth-of-type(3) {
+  margin-top: 40px;
+}
+
+.custom-line3 input[type="text"] {
+  width: 505px;
+  height: 200px;
+}
+
+.custom-line4 button {
+  background-color: #C8C8C8;
+  color: white;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 170px;
+}
+
+.custom-line4 button:hover {
+  background-color: #808080;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+footer {
+  text-align: center;
+  background-color: #C8C8C8;
+  height: 75px;
+  padding-top: 30px;
+}
+/* This footer contains a fake tradmark and copy right. */
